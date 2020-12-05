@@ -56,6 +56,9 @@ body {
         .grid__item--daniel-clifford {
           grid-row: 1 / 1;
           grid-column: 1 / -1; } }
+      @media only screen and (max-width: 50em) {
+        .grid__item--daniel-clifford {
+          background-position: top 0 right 3rem; } }
     .grid__item--jonathan-walters {
       background-color: var(--color-primary-dark-grayish-blue); }
       .grid__item--jonathan-walters img {
