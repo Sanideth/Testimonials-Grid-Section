@@ -130,6 +130,14 @@ body {
 
 .footer__attribution {
   text-align: center; }
+  .footer__attribution a {
+    text-decoration: none;
+    color: var(--color-primary-dark-grayish-blue);
+    font-style: italic;
+    transition: all 0.2; }
+    .footer__attribution a:hover {
+      color: var(--color-primary-violet);
+      text-decoration: underline; }
 
 .container {
   max-width: 105rem;

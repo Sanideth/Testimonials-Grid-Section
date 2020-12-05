@@ -127,5 +127,16 @@
 .footer {
   &__attribution {
     text-align: center;
+
+    & a {
+      text-decoration: none;
+      color: var(--color-primary-dark-grayish-blue);
+      font-style: italic;
+      transition: all 0.2;
+      &:hover {
+        color: var(--color-primary-violet);
+        text-decoration: underline;
+      }
+    }
   }
 }
