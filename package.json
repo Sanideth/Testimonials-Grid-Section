@@ -1,0 +1,26 @@
+{
+  "name": "testimonials-grid-section",
+  "version": "1.0.0",
+  "description": "Testimonials Grid Section from frontendmentor.io challenges",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" css/style.css -o css/style.prefixed.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanideth/Testimonials-Grid-Section.git"
+  },
+  "author": "Sandro Bochorishvili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanideth/Testimonials-Grid-Section/issues"
+  },
+  "homepage": "https://github.com/Sanideth/Testimonials-Grid-Section#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.0.4",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.1.14",
+    "postcss-cli": "^8.3.0"
+  }
+}
